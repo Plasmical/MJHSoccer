@@ -1,0 +1,283 @@
+/*Master styles*/
+body {
+  font-family: "Source-Sans-Pro", sans-serif;
+  margin: 20px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+/*Nav styles*/
+.nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+}
+
+.leftColumn {
+  display: flex;
+}
+
+.imgLogo {
+  background-color: white;
+  width: 100%;
+}
+
+.Logo {
+  font-size: 18px;
+  color: red;
+}
+
+.middleColumn {
+  display: flex;
+}
+
+.nav-wrapper>.middleColumn>div {
+  margin-right: 20px;
+  font-size: 0.9em;
+  text-transform: uppercase;
+}
+
+.nav-link-wrapper {
+  height: 22px;
+  border-bottom: 1px solid transparent transition: border-bottom;
+  color: red;
+}
+
+.nav-link-wrapper a {
+  color: red;
+  text-decoration: none;
+  transition-color: 0.5s;
+}
+
+.nav-link-wrapper:hover {
+  border-bottom: 1px solid navy;
+}
+
+.nav-link-wrapper a:hover {
+  color: navy;
+}
+
+.nav-link-wrapper-drops {
+  float: left;
+  overflow: hidden;
+}
+
+.nav-link-wrapper-drops .Team {
+  border: none;
+  outline: none;
+  color: red;
+  background-color: inherit;
+  font-family: inherit;
+  text-transform: uppercase;
+}
+
+.nav-link-wrapper-down {
+  display: none;
+  background-color: navy;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.nav-link-wrapper-down a {
+  float: none;
+  color: red;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.nav-link-wrapper-down a:hover {
+  background-color: white;
+  border-color: navy;
+}
+
+.nav-link-wrapper-drops:hover .nav-link-wrapper-down {
+  display: block;
+}
+
+.nav-link-wrapper-down .button-down {
+  border: none;
+  outline: none;
+  color: red;
+  background-color: inherit;
+  font-family: inherit;
+  text-transform: uppercase;
+  padding: 12px 16px;
+}
+
+.nav-link-wrapper-twodown {
+  display: none;
+  position: absolute;
+  background-color: navy;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  left: 100%;
+  top: 0%;
+}
+
+.nav-link-wrapper-twodown a {
+  float: none;
+  color: red;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  left: 100%;
+  top: 0%;
+}
+
+.nav-link-wrapper-twodown a:hover {
+  background-color: white;
+  border-color: navy;
+}
+
+.nav-link-wrapper-down:hover .nav-link-wrapper-twodown {
+  display: block;
+}
+
+/*Body styles*/
+.heading {
+  font-size: 30px;
+  font-weight: bold;
+  color: red;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.paragraph {
+  font-size: 16px;
+  font-weight: normal;
+  color: gray;
+  padding: 100px 20px;
+  position: absolute;
+  top: 25%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+}
+
+.two-column-wrapper {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+
+.overview {
+  background-color: navy;
+  border: 2px solid red;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 50px;
+  margin-bottom: 307px;
+}
+
+.overview-title {
+  font-size: 20px;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.overview-text {
+  font-size: 20px;
+  color: white;
+  padding: 20px;
+}
+
+.next-game {
+  background-color: navy;
+  font-size: 18px;
+  color: white;
+  border: 2px solid red;
+  margin-right: 20px;
+  margin-top: 50px;
+  padding: 20px;
+  padding-top: 200px;
+  text-align: center;
+}
+
+.last-game {
+  background-color: navy;
+  font-size: 18px;
+  color: white;
+  border: 2px solid red;
+  margin-right: 20px;
+  margin-top: 20px;
+  padding: 20px;
+  padding-top: 200px;
+  text-align: center;
+}
+
+.alumni-of-week {
+  background-color: navy;
+  border: 2px solid red;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: -287px;
+}
+
+.alumni-title {
+  font-size: 20px;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.alumni-text {
+  font-size: 20px;
+  color: white;
+  padding: 20px;
+}
+
+.cool-pictures {
+  background-color: navy;
+  border: 2px solid red;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.cool-pictures-title {
+  font-size: 20px;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.cool-pictures-text {
+  font-size: 20px;
+  color: white;
+  padding: 20px;
+}
+
+.schedule {
+  margin-top: 20px;
+  margin-left: 20px;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+table td {
+  border: 1px solid navy;
+  padding: 4px 8px;
+  color: black;
+  background-color: red;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+table th {
+  border: 1px solid navy;
+  padding: 4px 8px;
+  color: white;
+  background-color: red;
+  text-align: center;
+  font-weight: normal;
+  font-size: 16px;
+}

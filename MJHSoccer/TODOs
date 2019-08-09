@@ -1,0 +1,61 @@
+D:\Blaise\Fun\Coding\Atom\MJHSoccer\ -> copy when making new files
+
+1. Build project
+    - create folder
+    - create files
+    - connect files
+
+2. Navbar
+    - Links: Home, About us, The team->(Schedule, Roster, Pictures), Previous teams->(Team->[Schedule, Roster, Pictures], etc.), Alumni->(Alum of the week, graduating this year), Help the team
+    - Name and Image
+
+DONE ^^^^^^^^
+
+3. Home page:
+    - Overview
+    - Logo
+    - Next game: Names of teams, images of teams
+    - Last game: Names of teams, images of teams, scores, Pictures
+    - Alumni of the week
+    - Cool Pictures
+
+4. About us:
+    - Who we are
+    - Image
+    - The school
+
+5. The team: (Before tryouts, this would be blank, instead linking to a tryouts information page)
+    - 5.1. Schedule:
+        - A simple schedule
+        - Images of all teams
+        - Links to records of each past game
+        - Scores of past games
+    - 5.2. Roster:
+        - All players and positions
+        - Images
+    - 5.3. Pictures:
+        - Pictures from every game and from some practices/tryouts
+
+6. Previous teams:
+    - 6.1. ex. 2018/2019:
+        - Exact same with Schedule
+        - Change of roster: emails to each Alumni
+        - Exact same with Pictures
+
+7. Alumni
+    7.1. Alum of the week:
+        - Picture of the alum
+        - What he did for the team
+        - Best moments on the team
+        - What he's doing now
+        - What degree he seeks
+    7.2. Graduating this year:
+        - Pictures of all graduating alumni
+        - Short bio of each alumni
+        - emails of each alumni
+
+8. Help the team:
+    - Donate button to help the team
+
+*All only for boys soccer team for now
+*Permissions: to edit, Mrs. Chacon must give permission to finalize the edit
